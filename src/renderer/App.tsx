@@ -18,7 +18,7 @@ function Hello() {
       <div className="Hello">
         <img width="200" alt="icon" src={icon} />
       </div>
-      <h1>Electron Read DLL</h1>
+      <h1>Electron Version {process.versions.electron}</h1>
       
     </div>
   );
